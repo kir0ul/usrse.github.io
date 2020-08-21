@@ -1,7 +1,7 @@
 # The United States (US) Research Software Engineer Association
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-25-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-26-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## What is this?
@@ -319,6 +319,7 @@ tool to generate a contributors graphic below.
     <td align="center"><a href="https://github.com/toreliza"><img src="https://avatars2.githubusercontent.com/u/8468060?v=4?s=100" width="100px;" alt=""/><br /><sub><b>toreliza</b></sub></a><br /><a href="https://github.com/USRSE/usrse.github.io/commits?author=toreliza" title="Code">💻</a></td>
     <td align="center"><a href="http://isda.ncsa.illinois.edu"><img src="https://avatars1.githubusercontent.com/u/2375622?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kenton McHenry</b></sub></a><br /><a href="https://github.com/USRSE/usrse.github.io/commits?author=mchenry" title="Code">💻</a></td>
     <td align="center"><a href="http://abhishekdutta.org"><img src="https://avatars3.githubusercontent.com/u/722415?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abhishek Dutta</b></sub></a><br /><a href="https://github.com/USRSE/usrse.github.io/commits?author=thelinuxmaniac" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/manbat"><img src="https://avatars0.githubusercontent.com/u/41646490?v=4?s=100" width="100px;" alt=""/><br /><sub><b>manbat</b></sub></a><br /><a href="https://github.com/USRSE/usrse.github.io/commits?author=manbat" title="Code">💻</a></td>
   </tr>
 </table>
 
