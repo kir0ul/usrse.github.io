@@ -1,7 +1,7 @@
 # The United States (US) Research Software Engineer Association
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-23-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-25-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## What is this?
@@ -24,18 +24,21 @@ lookup (we use geolocation of a named location) please [open an issue](https://g
 ### 2. How do I add a job?
 
 We maintain a list of current and previous job postings in [_data/jobs.yml](_data/jobs.yml).
+You can add a new job to this list, and so that newer jobs appear at the top, we ask
+that you **add the new entry to the top of the list.**
 Specifically, we ask that you provide a name, location (can be Remote), an expiration date, and a url to the posting.
 The expiration date is not shown on the page, however it will determine when the job doesn't appear 
 anymore. We suggest setting a timeframe such as a month, and if you want to extend it, you
 can open a pull request to update the date. An example posting is shown below. This
-job will appear on the site until the first of July, 2019.
+job would appear on the site until the first of July, 2019.
 
 ```yaml
 - {expires: 2019-07-01, location: 'Princeton, NJ', name: 'Research Software Engineer',
     url: 'https://main-princeton.icims.com/jobs'}
 ```
 
-We will test that all fields are defined, the url exists, and that the "expires" field loads
+And don't forget to write your new job at the top of the [_data/jobs.yml](_data/jobs.yml) file!
+For testing, we look to see that all fields are defined, the url exists, and that the "expires" field loads
 as a `datetime.date` object in Python. If you copy the format above, you should
 be ok.
 
@@ -314,10 +317,11 @@ tool to generate a contributors graphic below.
   <tr>
     <td align="center"><a href="https://github.com/neisty"><img src="https://avatars2.githubusercontent.com/u/25918660?v=4?s=100" width="100px;" alt=""/><br /><sub><b>neisty</b></sub></a><br /><a href="https://github.com/USRSE/usrse.github.io/commits?author=neisty" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/toreliza"><img src="https://avatars2.githubusercontent.com/u/8468060?v=4?s=100" width="100px;" alt=""/><br /><sub><b>toreliza</b></sub></a><br /><a href="https://github.com/USRSE/usrse.github.io/commits?author=toreliza" title="Code">💻</a></td>
+    <td align="center"><a href="http://isda.ncsa.illinois.edu"><img src="https://avatars1.githubusercontent.com/u/2375622?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kenton McHenry</b></sub></a><br /><a href="https://github.com/USRSE/usrse.github.io/commits?author=mchenry" title="Code">💻</a></td>
+    <td align="center"><a href="http://abhishekdutta.org"><img src="https://avatars3.githubusercontent.com/u/722415?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abhishek Dutta</b></sub></a><br /><a href="https://github.com/USRSE/usrse.github.io/commits?author=thelinuxmaniac" title="Code">💻</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
